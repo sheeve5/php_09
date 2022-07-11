@@ -31,7 +31,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li {if $action == 'calcCompute' || $action == '' }class="active"{/if}><a href="{$conf->app_url}/index.php">Home</a></li>
-					<li{if $action == 'logShow'} class="active"{/if}><a href="{$conf->action_root}logShow">About</a></li>
+					<li{if $action == 'logShow'} class="active"{/if}><a href="{$conf->action_root}logShow">Historia</a></li>
 					
                                         {if $conf -> roles &&  $action != 'logout'}
                                         <li><a href="{$conf->action_root}logout">Wyloguj</a></li>

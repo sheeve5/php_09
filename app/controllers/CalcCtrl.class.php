@@ -141,7 +141,7 @@ class CalcCtrl {
 		
 		getSmarty()->assign('user',unserialize($_SESSION['user']));
 				
-		getSmarty()->assign('page_title','Super kalkulator - role i router');
+		getSmarty()->assign('page_title','Super kalkulator - baza danych');
 
 		getSmarty()->assign('form',$this->form);
 		getSmarty()->assign('res',$this->result);
